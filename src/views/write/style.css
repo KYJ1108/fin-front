@@ -1,0 +1,80 @@
+.write-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.write-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.write-content div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.write-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.write-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.write-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 150px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.write-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.write-button-submit {
+    color: #333;
+    border: 1px solid;
+}
+
+.write-button-submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.write-button-cancel {
+    color: #c82333;
+    border: 1px solid #c82333;
+}
+
+.write-button-cancel:hover {
+    background-color: #c82333;
+    color: #fff;
+}

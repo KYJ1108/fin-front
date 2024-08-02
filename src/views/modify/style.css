@@ -1,0 +1,79 @@
+.modify-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modify-tr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modify-left {
+    width: 100px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.modify-right {
+    flex: 1;
+}
+
+.modify-right input,
+.modify-right textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.modify-right textarea {
+    height: 150px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.modify-button {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modify-upload {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modify-upload:hover {
+    background-color: #0056b3;
+}
+
+.modify-cancel {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modify-cancel:hover {
+    background-color: #c82333;
+}
